@@ -20,5 +20,6 @@ database_url = URL.create(
 
 engine = create_engine(
     database_url,
-    pool_pre_ping=True
+    pool_pre_ping=True,
+    connect_args={"sslmode": "require"}
 )

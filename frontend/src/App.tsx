@@ -320,7 +320,7 @@ clearTimeout(timeout);
 };
 
 useEffect(() => {
-  fetch("http://127.0.0.1:8001/health")
+  fetch("https://lifelens-u1m2.onrender.com/health")
     .then((response) => response.json())
     .then((data) => setApiStatus(data.status))
     .catch(() => setApiStatus("Disconnected"));
