@@ -40,7 +40,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5178",
         "http://127.0.0.1:5178",
-        "https://lifelens-frontend.vercel.app",
+        "https://lifelens-frontend-zlldifm3p-mahika5.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
